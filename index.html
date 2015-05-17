@@ -1,73 +1,126 @@
-<!DOCTYPE html>
-<html >
-  <head>
-    <meta charset="UTF-8">
-
-
-    <title>A Pen by  Tamer</title>
-    
-    
-    
-    
-    
-    
-    
-    
-  </head>
-
-  <body>
-
-    <! DOCTYPE HTML>
+<! DOCTYPE HTML>
   <html>
     <head>
-      <title>Tamer's Notes'</title>  
+      <title>Tamer's Notes'</title> 
+
+      <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
-      <h1>The Basics of the Web and HTML</h1>
-      <h2>How the web works</h2>
-        <p>
-          The web is a bunch of computers that communicate with each other.
-          When a person surfs the <b>The World Wide Web</b> <em>(www)</em>, their computer 
-          sends a HTTP request <em>(Hypertext Transfer Protocol)</em> to a server which responds
-          with an appropriate html document. Your web browser then interprets the document
-          and displays it on the screen.
-        </p>
-        <p>The image below best describes how the web works:</p>
-        <div><img src="http://help.sap.com/static/erp2005_ehp_04/en/48/3a063a902131c3e10000000a42189d/ppt_img.gif" alt="WWW"></div>
-      <br>
-      <h2>HTML</h2>
-        <p>
-        <b>HTML</b> stands for <em>Hypertext Markup Language</em>. HTML documents contain text 
-        content which describes "what you see" and markup which describes "how it looks".
-        </p>
-      <br>
-      <h2>HTML Vocabulary</h2>
-        <p>
-          <b>Tag</b>: An HTML tag is always contained within angled brackets. 
-          Most tags have an opening tag (< p > for example) and a closing tag, (< /p >). 
-          Some tags (called <b>void</b> tags) do not require a closing tag 
-          (like the < br > tag).
-        </p>  
-        <p>
-          <b>Element</b>: An HTML element refers to everything within a set of opening 
-          and closing tags.  
-        </p>
-        <p>
-          <b>Attribute</b>: This is a property of an HTML element. For example, to set 
-          the <em>href</em> attribute of an anchor tag to the Udacity URL, you would
-          write <em>< a href="www.udacity.com" ></em>. Here's the attribute in action: 
-          <a href="www.udacity.com">Udacity Website</a>
-        </p>
-        <p>
-          <b>Inline vs. Block</b>: HTML elements are either inline or block. 
-          Block elements form an "invisible box" around the content inside of them.
-        </p>
+      <h1>Important Concepts</h1>
+      <div>
+        <div>
+          <h2>Lesson 1: The Basics of the Web and HTML</h2>
+          <div>
+            <h3>How the web works</h3>
+              <p>
+                The web is a bunch of computers that communicate with each other.
+                When a person surfs the <b>The World Wide Web</b> <em>(www)</em>, their computer 
+                sends a HTTP request <em>(Hypertext Transfer Protocol)</em> to a server which responds
+                with an appropriate html document. Your web browser then interprets the document
+                and displays it on the screen.
+              </p>
+              <div>
+                <p>The image below best describes how the web works:</p>
+                <img src="http://help.sap.com/static/erp2005_ehp_04/en/48/3a063a902131c3e10000000a42189d/ppt_img.gif" alt="WWW">
+              </div>
+          </div>
+          <div>
+            <h3>HTML</h3>
+              <p>
+              <b>HTML</b> stands for <em>Hypertext Markup Language</em>. HTML documents contain text 
+              content which describes "what you see" and markup which describes "how it looks".
+              </p>
+          </div>
+          <div>
+            <h3>HTML Vocabulary</h3>
+              <p>
+                <b>Tag</b>: An HTML tag is always contained within angled brackets. 
+                Most tags have an opening tag (< p > for example) and a closing tag, (< /p >) 
+                Some tags (called <b>void</b> tags) do not require a closing tag 
+                (like the < br > tag).
+              </p>  
+              <p>
+                <b>Element</b>: An HTML element refers to everything within a set of opening 
+                and closing tags.  
+              </p>
+              <p>
+                <b>Attribute</b>: This is a property of an HTML element. For example, to set 
+                the <em>href</em> attribute of an anchor tag to the Udacity URL, you would
+                write <em>< a href="www.udacity.com" ></em>. Here's the attribute in action: 
+                <a href="https://www.udacity.com" target="_blank">Udacity Website</a>
+              </p>
+              <p>
+                <b>Inline vs. Block</b>: HTML elements are either inline or block. 
+                Block elements form an "invisible box" around the content inside of them.
+              </p>
+          </div>
+        </div>
+        <!-- Start of Lesson 2 -->
+        <div>
+          <h2>Lession 2: Creating a Structured Document with HTML</h2>
+          <div>
+            <h3>The Tree-Like Structure of HTML</h3>
+            <p>
+              The "tree-like structure" comes from the fact that HTML elements can have other elements inside of them. When experts talk about the <b>DOM</b> <em>(Document Object Model)</em>, they are talking about the tree-like structure of an HTML page. In a browser, this structure shows up as a series of nested boxes.
+            </p>
+            <div>
+              <p>Here's an image of the tree like structure of an html page:</p>
+              <img src="http://0.tqn.com/d/javascript/1/0/z/dom1.gif">
+            </div>
+          </div>
+          <div>
+            <h3>Developer Tools</h3>
+            <p>Browsers come with developer tools where you can inspect elements on webpages. Not all elements are displayed but you can see the whole structure (DOM) of a webpage. You can also play around with styles on webpages and see changes in real-time using these developer tools.
+            </p>
+          </div>
+          <div>
+            <h3>Text Editors</h3>
+            <p>Programmers use special text editors to code. These editors make the programmer's life easier. For example, some text editors will automatically generate a closing HTML tag when you write an opening tag. <b>Sublime Text</b> is an example of a great text editor. You can use this editor to code many languages and it will detect the syntax to help you write cleaner code.</p>
+            <p>Click <a href="https://www.sublimetext.com/2" target="_blank">here</a> to download Sublime Text and make coding easier!</p>
+          </div>
+        </div>
+        <!-- Start of Lesson 3 -->
+        <div>
+          <h2>Lesson 3: Adding CSS Style to HTML Structure</h2>
+          <div>
+            <h3>What is CSS?</h3>
+            <p>
+              CSS stands for <em>Cascading Style Sheets</em> and is a style sheet language used for describing the look and formatting of an HTML document written in a markup language. This is done by giving similar HTML elements the same class name and then specifying the style that should apply to that class.
+            </p>
+          </div>
+          <div>
+            <h3>Avoiding Repetition</h3>
+            <p>As a programmer it is very important to avoid repetition. Here are some reasons why:
+            </p>
+            <ul>
+              <li>
+                <b>Avoiding Errors:</b> Rewriting the same code over and over can lead to errors when the programmer decides to make a change to something. 
+              </li>
+              <li>
+                <b>Consistency</b> 
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h3>Useful Tools</h3>
+            <p>Below is a list of useful tools that can making desiging a website easier:
+            </p>
+            <ul>
+              <li>
+                <a target="_blank" href="https://developer.chrome.com/devtools#dom-and-styles">Chrome Dev Tools</a>
+              </li>
+              <li>
+                <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference">CSS Reference</a>
+              </li>
+              <li>
+                <a target="_blank" href="https://validator.w3.org/">HTML Validator</a>
+              </li>
+              <li>
+                <a target="_blank" href="https://jigsaw.w3.org/css-validator/">CSS Validator</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </body>
   </html>
-    
-    
-    
-    
-    
-  </body>
-</html>
