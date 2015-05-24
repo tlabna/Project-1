@@ -3,8 +3,9 @@
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
     box-sizing: border-box;
-    border: red solid 2px;
-    margin: 8px;
+    /*used for debugging*/
+    /*border: red solid 2px;
+    margin: 8px;*/
 }
 
 body,
@@ -114,7 +115,8 @@ img {
 }
 
 .section {
-    overflow: hidden;
+    /*not needed since not fixed size*/
+    /*overflow: hidden;*/
 }
 
 .panel-logo {
